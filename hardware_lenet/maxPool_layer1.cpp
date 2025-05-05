@@ -6,15 +6,16 @@
 
 /////////////////PRAGMAS/////////////////
 
-// Saw online valuable for system-lvel wrapping
-#pragma HLS INTERFACE mode=ap_memory port=A depth=CHANNELS_P1*IN_HW_P1*IN_HW_P1
-#pragma HLS INTERFACE mode=ap_memory port=B depth=CHANNELS_P1*OUT_HW_P1*OUT_HW_P1
 
-#pragma HLS ARRAY_PARTITION variable=A dim=1 complete
-#pragma HLS ARRAY_PARTITION variable=B dim=1 complete
 //////////////////////////////////
 
 void pool1(const float A[CHANNELS_P1][IN_HW_P1][IN_HW_P1], float B[CHANNELS_P1][OUT_HW_P1][OUT_HW_P1]) {
+
+	#pragma HLS ARRAY_PARTITION variable=A dim=1 complete
+	#pragma HLS ARRAY_PARTITION variable=B dim=1 complete
+	// Saw online valuable for system-lvel wrapping
+    #pragma HLS INTERFACE mode=ap_memory port=A depth=CHANNELS_P1*IN_HW_P1*IN_HW_P1
+    #pragma HLS INTERFACE mode=ap_memory port=B depth=CHANNELS_P1*OUT_HW_P1*OUT_HW_P1
     #pragma HLS PIPELINE II=1
     
     CH_:  for (int m = 0; m < CHANNELS_P1;   m++) { // For every output channel

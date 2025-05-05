@@ -7,7 +7,6 @@
 #include "dense_layer1.h"       // IN_D1, OUT_D1
 #include "dense_layer2.h"       // OUT_D2
 
-/* buffers with layer‑specific sizes */
 static float img_buf[IN_CH][IN_HW][IN_HW];
 static float fm1[OUT_CH][OUT_HW][OUT_HW];                   // 28×28×32
 static float pl1[CHANNELS_P1][OUT_HW_P1][OUT_HW_P1];        // 14×14×32
@@ -18,15 +17,15 @@ static float hid[OUT_D1];                                   // 64
 static float logit_buf[OUT_D2];                             // 43      
 
 
-// AXI pragmas (no new names) 
-#pragma HLS INTERFACE m_axi      port=img     offset=slave bundle=gmem0
-#pragma HLS INTERFACE m_axi      port=logits  offset=slave bundle=gmem1
-#pragma HLS INTERFACE s_axilite  port=img                   bundle=ctrl
-#pragma HLS INTERFACE s_axilite  port=logits                bundle=ctrl
-#pragma HLS INTERFACE s_axilite  port=return                bundle=ctrl
-
-#pragma HLS DATAFLOW  
 void cnn_top(const float *img, float *logits) {
+    // AXI pragmas
+    #pragma HLS INTERFACE m_axi      port=img     offset=slave bundle=gmem0
+    #pragma HLS INTERFACE m_axi      port=logits  offset=slave bundle=gmem1
+    #pragma HLS INTERFACE s_axilite  port=img                   bundle=ctrl
+    #pragma HLS INTERFACE s_axilite  port=logits                bundle=ctrl
+    #pragma HLS INTERFACE s_axilite  port=return                bundle=ctrl
+
+//    #pragma HLS DATAFLOW
     // Copy images into BRAM (3x32x32)
     COPY_IN: for (int c = 0; c < IN_CH;  c++) {
                 for (int y = 0; y < IN_HW; y++) {
@@ -36,7 +35,7 @@ void cnn_top(const float *img, float *logits) {
                 }
             }
         }
-        
+
         conv1( img_buf , fm1 );
         pool1( fm1 , pl1 );
         conv2( pl1 , fm2 );

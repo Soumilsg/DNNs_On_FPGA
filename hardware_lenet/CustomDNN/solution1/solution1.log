@@ -1,0 +1,343 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+ERROR: [HLS 200-1023] Part 'xc7z020clg400-1' is not installed.
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 1 seconds. Total elapsed time: 8.106 seconds; peak allocated memory: 856.809 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.423 seconds; current allocated memory: 1.030 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer1.h:14:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer1.h:21:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer1.h:28:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer1.h:37:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer1.h:44:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer1.h:51:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer1.h:60:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer1.h:67:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer1.h:74:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:14:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:21:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:28:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:35:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:42:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:240:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:247:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:254:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:261:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:268:7)
+ERROR: [HLS 207-59] too many errors emitted, stopping now
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.875 seconds; current allocated memory: 0.355 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 18.622 seconds; peak allocated memory: 1.030 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.079 seconds; current allocated memory: 1.029 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:14:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:21:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:28:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:35:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:42:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:240:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:247:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:254:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:261:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:268:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:466:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:473:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:480:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:487:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:494:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:692:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:699:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:706:7)
+ERROR: [HLS 207-2577] excess elements in array initializer (./conv2d_layer2.h:713:7)
+ERROR: [HLS 207-59] too many errors emitted, stopping now
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.006 seconds; current allocated memory: 0.258 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 1 seconds. Total elapsed time: 17.44 seconds; peak allocated memory: 1.029 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.093 seconds; current allocated memory: 1.029 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+ERROR: [HLS 207-2577] excess elements in array initializer (./dense_layer1.h:10:3)
+ERROR: [HLS 207-2577] excess elements in array initializer (./dense_layer2.h:9:3)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (cnn_top.cpp:22:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (cnn_top.cpp:23:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (cnn_top.cpp:24:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (cnn_top.cpp:25:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (cnn_top.cpp:26:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (cnn_top.cpp:28:9)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.929 seconds; current allocated memory: 0.195 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 1 seconds. Total elapsed time: 17.462 seconds; peak allocated memory: 1.030 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.081 seconds; current allocated memory: 1.029 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:39:16)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:39:26)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:40:16)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:40:22)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:41:16)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:41:22)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:42:16)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:42:22)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:43:18)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:43:24)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:44:18)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:44:24)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:45:18)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:45:24)
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region (cnn_top.cpp:28:9)
+WARNING: [HLS 200-471] Dataflow form checks found 15 issue(s) in file cnn_top.cpp
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer1.cpp' ... 
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:10:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:11:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:14:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:15:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:18:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:19:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:20:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:21:9)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.168 seconds; current allocated memory: 2.125 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 1 seconds. Total elapsed time: 26.68 seconds; peak allocated memory: 1.031 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.088 seconds; current allocated memory: 1.029 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:55:12)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:55:22)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:56:12)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:56:18)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:57:12)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:57:18)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:58:12)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:58:18)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:59:14)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:59:20)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:60:14)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:60:20)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:61:14)
+WARNING: [HLS 214-113] Either use an argument of the function or declare the variable inside the dataflow loop body (cnn_top.cpp:61:20)
+WARNING: [HLS 200-471] Dataflow form checks found 14 issue(s) in file cnn_top.cpp
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer1.cpp' ... 
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:10:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:11:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:14:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:15:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:18:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:19:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:20:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:21:9)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 8.262 seconds; current allocated memory: 1.523 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 1 seconds. Total elapsed time: 24.577 seconds; peak allocated memory: 1.030 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.105 seconds; current allocated memory: 1.034 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer1.cpp' ... 
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:11:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:12:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:15:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:16:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:17:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer1.cpp:18:9)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 8.2 seconds; current allocated memory: 1.027 MB.
+INFO: [HLS 200-112] Total CPU user time: 7 seconds. Total CPU system time: 1 seconds. Total elapsed time: 25.32 seconds; peak allocated memory: 1.035 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.076 seconds; current allocated memory: 1.029 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer1.cpp' ... 
+WARNING: [HLS 207-5527] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (conv2d_layer1.cpp:18:9)
+WARNING: [HLS 207-5527] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (conv2d_layer1.cpp:19:9)
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer2.cpp' ... 
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer2.cpp:11:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer2.cpp:12:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer2.cpp:15:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer2.cpp:16:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer2.cpp:17:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (conv2d_layer2.cpp:18:9)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 36.426 seconds; current allocated memory: 5.371 MB.
+INFO: [HLS 200-112] Total CPU user time: 7 seconds. Total CPU system time: 1 seconds. Total elapsed time: 52.689 seconds; peak allocated memory: 1.034 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.064 seconds; current allocated memory: 1.029 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'dense_layer1.cpp' ... 
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (dense_layer1.cpp:12:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (dense_layer1.cpp:13:9)
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (dense_layer1.cpp:15:9)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 66.522 seconds; current allocated memory: 8.281 MB.
+INFO: [HLS 200-112] Total CPU user time: 7 seconds. Total CPU system time: 1 seconds. Total elapsed time: 82.912 seconds; peak allocated memory: 1.037 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.09 seconds; current allocated memory: 1.028 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'dense_layer1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'dense_layer2.cpp' ... 
+ERROR: [HLS 207-3777] use of undeclared identifier 'D1_W'; did you mean 'D2_W'? (dense_layer2.cpp:18:38)
+INFO: [HLS 207-4436] 'D2_W' declared here (./dense_layer2.h:9:20)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 97.269 seconds; current allocated memory: 12.031 MB.
+INFO: [HLS 200-112] Total CPU user time: 9 seconds. Total CPU system time: 1 seconds. Total elapsed time: 113.58 seconds; peak allocated memory: 1.040 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.074 seconds; current allocated memory: 1.029 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'dense_layer1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'dense_layer2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'flatten.cpp' ... 
+ERROR: [HLS 207-5504] '#pragma HLS' is only allowed in function scope (flatten.cpp:4:9)
+ERROR: [HLS 207-3776] use of undeclared identifier 'in' (flatten.cpp:7:43)
+WARNING: [HLS 207-5544] invalid variable expr  (flatten.cpp:7:43)
+ERROR: [HLS 207-3776] use of undeclared identifier 'out' (flatten.cpp:8:43)
+WARNING: [HLS 207-5544] invalid variable expr  (flatten.cpp:8:43)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 122.743 seconds; current allocated memory: 15.133 MB.
+INFO: [HLS 200-112] Total CPU user time: 10 seconds. Total CPU system time: 1 seconds. Total elapsed time: 139.344 seconds; peak allocated memory: 1.044 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020i-clg400-1L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -vivado_clock=10
+INFO: [HLS 200-1510] Running: set_part xc7z020iclg400-1L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -vivado_clock 10 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.066 seconds; current allocated memory: 1.029 GB.
+INFO: [HLS 200-10] Analyzing design file 'cnn_top.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'conv2d_layer2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'dense_layer1.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'dense_layer2.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'flatten.cpp' ... 
+ERROR: [HLS 207-812] 'flatten_layer.h' file not found (flatten.cpp:2:10)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 4 seconds. CPU system time: 0 seconds. Elapsed time: 120.18 seconds; current allocated memory: 15.270 MB.
+INFO: [HLS 200-112] Total CPU user time: 9 seconds. Total CPU system time: 1 seconds. Total elapsed time: 136.362 seconds; peak allocated memory: 1.044 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================

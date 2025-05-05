@@ -6,18 +6,19 @@
 
 /////////////////PRAGMAS/////////////////
 
-// Saw online valuable for system-level wrapping
-#pragma HLS INTERFACE mode=ap_memory port=X depth=IN_D2
-#pragma HLS INTERFACE mode=ap_memory port=Y depth=OUT_D2
 
 // Set the weights to be stored on the fast block RAM
-#pragma HLS RESOURCE variable=D1_W core=RAM_1P_BRAM
-#pragma HLS RESOURCE variable=D1_B core=RAM_1P_BRAM
-
-#pragma HLS ARRAY_PARTITION variable=D1_W dim=2 complete
 //////////////////////////////////
 
 void dense2(const float X[IN_D2], float Y[OUT_D2]) {
+
+	#pragma HLS bind_storage variable=D2_W type=RAM_1P impl=bram
+	#pragma HLS bind_storage variable=D2_B type=ROM_1P impl=bram
+
+	#pragma HLS ARRAY_PARTITION variable=D2_W dim=2 complete
+	// Saw online valuable for system-level wrapping
+    #pragma HLS INTERFACE mode=ap_memory port=X depth=IN_D2
+    #pragma HLS INTERFACE mode=ap_memory port=Y depth=OUT_D2
     #pragma HLS PIPELINE II=1
 
     O_: for (int o = 0; o < OUT_D2; o++) {

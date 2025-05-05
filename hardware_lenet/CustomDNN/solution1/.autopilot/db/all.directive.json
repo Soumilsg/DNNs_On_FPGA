@@ -1,0 +1,125 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "cnn_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "D:\/Soumil479\/DNNs_On_FPGA\/hardware_lenet\/CustomDNN\/solution1\/csynth.tcl",
+          "sourceLine": "30",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cnn_top"
+              }]
+          }
+        },
+        {
+          "functionName": "cnn_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "D:\/Soumil479\/DNNs_On_FPGA\/hardware_lenet\/CustomDNN\/solution1\/csynth.tcl",
+          "sourceLine": "30",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cnn_top"
+              }]
+          }
+        },
+        {
+          "functionName": "cnn_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "D:\/Soumil479\/DNNs_On_FPGA\/hardware_lenet\/CustomDNN\/solution1\/csynth.tcl",
+          "sourceLine": "30",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cnn_top"
+              }]
+          }
+        },
+        {
+          "functionName": "cnn_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "4",
+          "sourceFile": "D:\/Soumil479\/DNNs_On_FPGA\/hardware_lenet\/CustomDNN\/solution1\/csynth.tcl",
+          "sourceLine": "30",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cnn_top"
+              }]
+          }
+        },
+        {
+          "functionName": "cnn_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "5",
+          "sourceFile": "D:\/Soumil479\/DNNs_On_FPGA\/hardware_lenet\/CustomDNN\/solution1\/csynth.tcl",
+          "sourceLine": "30",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cnn_top"
+              }]
+          }
+        },
+        {
+          "functionName": "cnn_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "6",
+          "sourceFile": "D:\/Soumil479\/DNNs_On_FPGA\/hardware_lenet\/CustomDNN\/solution1\/csynth.tcl",
+          "sourceLine": "30",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cnn_top"
+              }]
+          }
+        },
+        {
+          "functionName": "cnn_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "7",
+          "sourceFile": "D:\/Soumil479\/DNNs_On_FPGA\/hardware_lenet\/CustomDNN\/solution1\/csynth.tcl",
+          "sourceLine": "30",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cnn_top"
+              }]
+          }
+        },
+        {
+          "functionName": "cnn_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "8",
+          "sourceFile": "D:\/Soumil479\/DNNs_On_FPGA\/hardware_lenet\/CustomDNN\/solution1\/csynth.tcl",
+          "sourceLine": "30",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "cnn_top"
+              }]
+          }
+        }
+      ]
+    }]}

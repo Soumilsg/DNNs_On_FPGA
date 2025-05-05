@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="maxPool_layer2.h" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\maxPool_layer2.h"/>
+    <originFiles name="maxPool_layer2.cpp" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\maxPool_layer2.cpp"/>
+    <originFiles name="maxPool_layer1.h" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\maxPool_layer1.h"/>
+    <originFiles name="maxPool_layer1.cpp" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\maxPool_layer1.cpp"/>
+    <originFiles name="flatten.h" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\flatten.h"/>
+    <originFiles name="flatten.cpp" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\flatten.cpp"/>
+    <originFiles name="dense_layer2.h" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\dense_layer2.h"/>
+    <originFiles name="dense_layer2.cpp" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\dense_layer2.cpp"/>
+    <originFiles name="dense_layer1.h" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\dense_layer1.h"/>
+    <originFiles name="dense_layer1.cpp" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\dense_layer1.cpp"/>
+    <originFiles name="conv2d_layer2.h" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\conv2d_layer2.h"/>
+    <originFiles name="conv2d_layer2.cpp" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\conv2d_layer2.cpp"/>
+    <originFiles name="conv2d_layer1.h" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\conv2d_layer1.h"/>
+    <originFiles name="conv2d_layer1.cpp" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\conv2d_layer1.cpp"/>
+    <originFiles name="cnn_top.h" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\cnn_top.h"/>
+    <originFiles name="cnn_top.cpp" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\cnn_top.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench.cpp" path="D:\Soumil479\DNNs_On_FPGA\hardware_lenet\testbench.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

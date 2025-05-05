@@ -6,22 +6,23 @@
 
 /////////////////PRAGMAS/////////////////
 
-// Saw online valuable for system-lvel wrapping
-#pragma HLS INTERFACE mode=ap_memory port=X depth=IN_CH_C2*IN_HW_C2*IN_HW_C2
-#pragma HLS INTERFACE mode=ap_memory port=Y depth=OUT_CH_C2*OUT_HW_C2*OUT_HW_C2
 
 // Set the weights to be stored on the fast block RAM
-#pragma HLS RESOURCE variable=CONV2_W core=RAM_1P_BRAM
-#pragma HLS RESOURCE variable=CONV2_B core=RAM_1P_BRAM
 
-// Got the Partitioning from Lecture (Weights are 32x3x5x5, splitting across channels and convolutional kernel)
-#pragma HLS ARRAY_PARTITION variable=CONV2_W dim=2 complete
-#pragma HLS ARRAY_PARTITION variable=CONV2_W dim=3 complete
-#pragma HLS ARRAY_PARTITION variable=CONV2_W dim=4 complete
-#pragma HLS ARRAY_PARTITION variable=X       dim=1 complete
 //////////////////////////////////
 
 void conv2(float X[IN_CH_C2][IN_HW_C2][IN_HW_C2], float Y[OUT_CH_C2][OUT_HW_C2][OUT_HW_C2]) {
+	// Saw online valuable for system-lvel wrapping
+	#pragma HLS bind_storage variable=CONV2_W type=RAM_1P impl=bram
+	#pragma HLS bind_storage variable=CONV2_B type=ROM_1P impl=bram
+
+	// Got the Partitioning from Lecture (Weights are 32x3x5x5, splitting across channels and convolutional kernel)
+	#pragma HLS ARRAY_PARTITION variable=CONV2_W dim=2 complete
+	#pragma HLS ARRAY_PARTITION variable=CONV2_W dim=3 complete
+	#pragma HLS ARRAY_PARTITION variable=CONV2_W dim=4 complete
+	#pragma HLS ARRAY_PARTITION variable=X       dim=1 complete
+	#pragma HLS INTERFACE mode=ap_memory port=X depth=IN_CH_C2*IN_HW_C2*IN_HW_C2
+	#pragma HLS INTERFACE mode=ap_memory port=Y depth=OUT_CH_C2*OUT_HW_C2*OUT_HW_C2
 
 	#pragma HLS PIPELINE II=1
 	M_: for (int m = 0; m < OUT_CH_C2; m++) { 	// For every output channel

@@ -1,0 +1,22 @@
+---
+MainSourceFile:  'D:/Soumil479/DNNs_On_FPGA/hardware_lenet/CustomDNN/solution1/.autopilot/db/cnn_top.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        cnn_top.cpp
+    Replacements:    
+      - FilePath:        'D:\Soumil479\DNNs_On_FPGA\hardware_lenet\CustomDNN\solution1\.autopilot\db\cnn_top.pp.0.cpp'
+        Offset:          1522589
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_32_2:  '
+    FileOffset:      32
+    FilePath:        cnn_top.cpp
+    Replacements:    
+      - FilePath:        'D:\Soumil479\DNNs_On_FPGA\hardware_lenet\CustomDNN\solution1\.autopilot\db\cnn_top.pp.0.cpp'
+        Offset:          1522640
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_32_2: '
+...
